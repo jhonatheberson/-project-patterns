@@ -29,11 +29,21 @@ private slots:
 
     void exibirFig();
 
+    void ponto();
+
+    void line();
+
+    void triangulo();
+
+    void quadrado();
+
 private:
     Ui::fig *ui;
     QPixmap Img;
-    QPixmap ImgX;
     QPixmap ImgO;
+    QPixmap ImgL;
+    QPixmap ImgQ;
+    QPixmap ImgT;
     QLabel NumX;
     QLabel NumO;
     ajuda help;
